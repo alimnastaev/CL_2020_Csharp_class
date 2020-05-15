@@ -2,30 +2,30 @@
 
 class Program
 {
-    static string Ask(string question) 
+    static string Ask(string question)
     {
         Console.Write(question + " ");
         return Console.ReadLine();
     }
-  
-    static double Price(int quantity) 
+
+    static double Price(int quantity)
     {
-      double pricePerUnite;
-      if (quantity >= 100)
-      {
-        pricePerUnite = 1.5;
-      }
-      else if (quantity >= 50)
-      {
-        pricePerUnite = 1.55;
-      }
-      else
-      {
-        pricePerUnite = 2;
-      }
-      return quantity * pricePerUnite;
+        double pricePerUnite;
+        if (quantity >= 100)
+        {
+            pricePerUnite = 1.5;
+        }
+        else if (quantity >= 50)
+        {
+            pricePerUnite = 1.55;
+        }
+        else
+        {
+            pricePerUnite = 2;
+        }
+        return quantity * pricePerUnite;
     }
-    
+
     static void Main()
     {
         Console.WriteLine("Welcome to the cat food store!");
