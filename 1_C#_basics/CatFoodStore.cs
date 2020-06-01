@@ -8,7 +8,7 @@ public static class CatFoodStore
         return Console.ReadLine();
     }
 
-    static double Price(int quantity)
+    public static double Price(int quantity)
     {
         double pricePerUnite;
         if (quantity >= 100)
