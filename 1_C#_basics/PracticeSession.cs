@@ -1,8 +1,8 @@
 using System;
 
-class PracticeSession
+public static class PracticeSession
 {
-    static void Main()
+    public static void Execute()
     {
         // TODO Declare and assign a "thing" string variable.
         // Example: "movie", "book", "color", etc.
